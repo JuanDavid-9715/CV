@@ -1,0 +1,176 @@
+.logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    fill: var(--medium-slate-blue);
+    stroke: var(--medium-slate-blue);
+}
+
+.logo-letter {
+    font-size: 20px;
+    position: absolute;
+    top: 28px;
+    left: 37px;
+    text-shadow: 0 0 5px var(--maximum-blue-purple),
+        0 0 10px var(--maximum-blue-purple), 0 0 15px var(--maximum-blue-purple),
+        0 0 20px var(--maximum-blue-purple), 0 0 25px var(--maximum-blue-purple),
+        0 0 30px var(--maximum-blue-purple);
+}
+
+@media only screen and (min-width: 600px) {
+    .logo-letter {
+        left: calc(8vw + 2px);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .logo-letter {
+        left: calc(10vw + 2px);
+    }
+}
+
+/* animaciones */
+/* Entrada */
+
+@keyframes animationLinea1Entrada {
+    from {
+        transform: translate(500px, -1000px);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes animationLinea2Entrada {
+    from {
+        transform: translate(500px, 1000px);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes animationLinea3Entrada {
+    from {
+        transform: translate(-1000px, 0px);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes animationTextEntrada {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+/* Activacion */
+
+@keyframes animationLinea1Activado {
+    from {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(250px, -500px);
+    }
+    to {
+        transform: translate(130px, -250px);
+    }
+}
+
+@keyframes animationLinea2Activado {
+    from {
+        transform: translate(0px, 0px);
+    }
+    10% {
+        transform: translate(250px, 450px);
+    }
+    to {
+        transform: translate(130px, 240px);
+    }
+}
+
+@keyframes animationLinea3Activado {
+    from {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(-500px, 0px);
+    }
+    to {
+        transform: translate(-300px, 0px);
+    }
+}
+
+@keyframes animationTextActivado {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes animacionLogoAccion {
+    from {
+        transform: (0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Desactivacion */
+
+@keyframes animationLinea1Desactivado {
+    from {
+        transform: translate(130px, -250px);
+    }
+    50% {
+        transform: translate(250px, -500px);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes animationLinea2Desactivado {
+    from {
+        transform: translate(130px, 240px);
+    }
+    10% {
+        transform: translate(250px, 450px);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes animationLinea3Desactivado {
+    from {
+        transform: translate(-300px, 0px);
+    }
+    50% {
+        transform: translate(-500px, 0px);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes animacionLogoDesactivado {
+    from {
+        transform: rotate(360deg);
+        transform: (0deg);
+    }
+    to {
+        transform: (0deg);
+    }
+}

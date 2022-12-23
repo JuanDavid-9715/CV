@@ -1,0 +1,35 @@
+.App {
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, 10fr) 5fr 20fr 7fr;
+}
+
+.PERFIL {
+    /* background-color: cyan; */
+    height: 100vh;
+}
+
+.COMPETENCIAS {
+    background-color: blue;
+}
+
+.EXPERIENCIA {
+    background-color: chartreuse;
+}
+
+.PORTAFOLIO {
+    background-color: darkviolet;
+}
+
+.CONTACTO {
+    background-color: orange;
+}
+
+.FOOTER {
+    background-color: springgreen;
+    height: 200px;
+}
