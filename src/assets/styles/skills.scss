@@ -1,0 +1,38 @@
+.container-skills {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.container-title {
+    background-color: cadetblue;
+}
+
+.container-title-skills {
+    margin: 18vh 0 0 0;
+}
+
+.conteiner-skills-skills {
+    background-color: cadetblue;
+    width: 90vw;
+    height: 50vh;
+    margin: 5vh 0;
+    display: grid;
+}
+
+@media only screen and (min-width: 600px) {
+    .conteiner-skills {
+        width: 70vw;
+        height: 40vh;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .conteiner-skills {
+        width: 70vw;
+        height: 35vh;
+    }
+}

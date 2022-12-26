@@ -27,7 +27,7 @@ function NavigationBar() {
                 style={
                     screen.width < 600
                         ? flagMenuMobil
-                            ? { top: "75px" }
+                            ? { top: "69px" }
                             : { top: "-220px" }
                         : { top: "0px" }
                 }

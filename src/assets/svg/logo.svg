@@ -1,6 +1,6 @@
 <svg 
   	xmlns="http://www.w3.org/2000/svg"
-	className="logo"
+    className="logo"
     width="1000px"
     height="1000px"
     viewBox="0 0 1000 1000"
@@ -32,15 +32,18 @@
   <line x1="500" x2="500" y1="0" y2="654.7" stroke="purple" /> -->
 
   	<polygon
-    	id="linea1"
-    	points="500, 50 103, 844 179.8,844 537.5,124.9"
+        className="logo-line1"
+        points="500, 50 103, 844 179.8,844 537.5,124.9"
     />
     <polygon
-        id="linea2"
+        className="logo-line2"
         points="873, 950 950,950 559.7, 169.4 522.3, 245"
     />
-    <polygon id="linea3" points="50, 950 828.1,950 795.3,884 83,884" />
-    <text x="399" y="816.5" id="text">
+    <polygon
+        className="logo-line3"
+        points="50, 950 828.1,950 795.3,884 83,884"      
+    />
+    <text x="399" y="816.5" id="text" style="400">
          J
     </text>
 </svg>

@@ -1,18 +1,24 @@
 import "./App.scss";
 import NavigationBar from "./components/NavigationBar";
+import Profile from "./components/Profile";
+import Skills from "./components/Skills";
+import Briefcase from "./components/Briefcase";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
     return (
         <div className="App">
             <NavigationBar />
             <main>
-                <div className="PERFIL"></div>
-                <div className="COMPETENCIAS"></div>
-                <div className="EXPERIENCIA"></div>
-                <div className="PORTAFOLIO"></div>
-                <div className="CONTACTO"></div>
+                <Profile />
+                <Skills />
+                <Briefcase />
+                <Experience />
+                <Contact />
             </main>
-            <footer className="FOOTER"></footer>
+            <Footer />
         </div>
     );
 }

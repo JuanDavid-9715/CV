@@ -1,0 +1,24 @@
+.footer {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 0.4fr auto;
+    grid-template-rows: 150px;
+    align-items: center;
+}
+
+.conteiner-logo-footer {
+    padding: 0 0 0 35px;
+}
+
+.conteiner-text-footer {
+    margin: 0 0 0 11vw;
+}
+
+@media only screen and (min-width: 600px) {
+    .conteiner-text-footer {
+        margin: 0 0 0 15vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+}

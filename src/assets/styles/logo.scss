@@ -9,8 +9,8 @@
 .logo-letter {
     font-size: 20px;
     position: absolute;
-    top: 28px;
-    left: 37px;
+    top: 30px;
+    left: 51px;
     text-shadow: 0 0 5px var(--maximum-blue-purple),
         0 0 10px var(--maximum-blue-purple), 0 0 15px var(--maximum-blue-purple),
         0 0 20px var(--maximum-blue-purple), 0 0 25px var(--maximum-blue-purple),
@@ -19,13 +19,31 @@
 
 @media only screen and (min-width: 600px) {
     .logo-letter {
-        left: calc(8vw + 2px);
+        left: calc(10vw + 2px);
     }
 }
 
 @media only screen and (min-width: 768px) {
     .logo-letter {
-        left: calc(10vw + 2px);
+        left: calc(12vw);
+    }
+}
+
+@media only screen and (min-width: 929px) {
+    .logo-letter {
+        left: calc(11vw + 6px);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .logo-letter {
+        left: calc(11vw + 4px);
+    }
+}
+
+@media only screen and (min-width: 1630px) {
+    .logo-letter {
+        left: calc(10vw + 15px);
     }
 }
 

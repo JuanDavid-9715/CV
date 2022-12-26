@@ -1,0 +1,74 @@
+.conteiner-profile {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    justify-content: space-evenly;
+    align-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.conteiner-name {
+    padding: 5vw;
+}
+
+.name {
+    background-color: gray;
+    font-size: 5vw;
+}
+
+.profession {
+    background-color: gray;
+    font-size: 3vw;
+}
+
+.conteiner-photo {
+    background-color: cadetblue;
+    width: 40vw;
+    height: 40vh;
+    margin: 0 5vw 0 0;
+}
+
+.photo {
+    width: 10vw;
+    height: 10vh;
+}
+
+.container-profile-text {
+    background-color: cadetblue;
+    width: 75vw;
+    height: 30vh;
+    position: absolute;
+    top: 69vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+@media only screen and (min-width: 600px) {
+    .name {
+        font-size: 30px;
+    }
+
+    .profession {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .name {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .name {
+        font-size: 50px;
+    }
+
+    .profession {
+        font-size: 30px;
+    }
+}

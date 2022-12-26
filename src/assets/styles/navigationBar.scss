@@ -9,17 +9,20 @@
 
 .conteiner-logo {
     background-color: var(--BackgroundColor);
-    padding: 34px 50vw 34px 35px;
+    padding: 15px 50vw 15px 35px;
     z-index: 100;
 }
 
 .button-logo {
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .conteiner-menu {
+    background-color: var(--carbon);
     position: absolute;
     left: 10px;
     transition: 1s linear;
@@ -38,6 +41,7 @@
     }
 
     .conteiner-menu {
+        background-color: transparent;
         margin: 0 4vw 0 0;
         position: relative;
         top: 0;
